@@ -1,0 +1,26 @@
+# Components:
+
+Transistor: https://www.onsemi.com/pdf/datasheet/p2n2222a-d.pdf
+Motor: https://botland.store/dc-motors-with-gearbox-and-encoders/6287-dc-geared-motor-with-encoder-sj01-6v-160rpm-1201-6959420910205.html
+H-bridge: https://www.st.com/resource/en/datasheet/l298.pdf
+
+# Guides:
+
+Encoder: https://lastminuteengineers.com/rotary-encoder-arduino-tutorial/
+Motor: https://www.tutorialspoint.com/arduino/arduino_dc_motor.htm
+h-bridge: https://www.tutorialspoint.com/arduino/arduino_dc_motor.htm
+
+# Where we were:
+
+Har sat op at den læser/fortolker encoder - vi er ikke sikre på om det dur rigtigt?.. men det virker til det..
+
+Vi var ved at sætte h-bridge op så vi kan ændre retning på motoren. Det dur ikke. Endte med at sætte op, så den bare burde køre (altså at vi selv har sat enabler og den ene input pin til HIGH, og så den anden input pin til LOW), men det dur stadig ikke.
+Næste step: skal have hjælp af bjarke, det var ham der sagde at vi skulle sætte den op på den måde...
+
+# TROUBLESHOOTING:
+
+Den dur mest på usb-c porten 'øverst til højre'
+
+Hvis stadig ikke dur: tryk reset knappen på microcontrolleren
+
+Hvis stadig ikke dur: ryk over på nederst til højre, upload, og så ryk tilbage til øverst til højre og upload igen.
