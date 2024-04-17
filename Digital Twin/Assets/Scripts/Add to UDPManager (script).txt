@@ -1,7 +1,0 @@
-private void OnDestroy()
-{
-    if (udpClient != null)
-    {
-        udpClient.Close();
-    }
-}
